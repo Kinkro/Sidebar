@@ -168,6 +168,9 @@ Sidebar
   cursor: pointer;
   animation: bounce 2s ease-in-out infinite;
 }
+.sidebar-stop {
+  animation: none;
+}
 .sidebar-toggle:hover {
   color: var(--clr-primary-7);
 }
