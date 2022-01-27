@@ -8,6 +8,8 @@ const sidebar = document.querySelector(".sidebar");
 
 toggleBtn.addEventListener("click",function(){
     sidebar.classList.toggle("show-sidebar");
+    toggleBtn.classList.toggle("sidebar-stop");
+    
 });
 
 closeBtn.addEventListener("click", function(){
